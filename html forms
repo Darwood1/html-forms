@@ -4,6 +4,19 @@
 
 <h2>Text input fields</h2>
 <form>
-  <label for="name">First name:</label>
-  <input id="name" type="text" name="name" />
+  <div>
+    <label for="name">Full Name:</label>
+    <input id="name" type="text" name="name" />
+  </div>
+  <div>
+    <label for="location">Zipcode:</label>
+    <input
+      id="location"
+      type="text"
+      name="zipcode"
+      autofocus="on"
+      maxlength="5"
+      required
+    />
+  </div>
 </form>
